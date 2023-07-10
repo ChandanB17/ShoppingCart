@@ -23,7 +23,7 @@ html{
     width: 100%;
     background-color:#000000;
     position: fixed;
-    z-index: 2;
+    z-index: 999;
     padding: 0;
 }
 
@@ -84,21 +84,26 @@ input[type=text] {
     margin-top: 0px;  
     font-size: 17px;  
     border: none;  
+    background-color: aliceblue;
 }  
 #searchbox button{  
     padding: 8px;  
     margin-top: 0px;  
     margin-left: 0px;  
-    background: rgb(255, 255, 255);   
+    background: rgb(251, 251, 251);   
     cursor: pointer;  
 }  
 #searchbox button img{
     height: 10px;
     width: 10px;
+    background-color: aliceblue;
 }
 
+.color{
+    background-color: #000000;
+}
 
-/* Home Section */
+/* Home Section
 #home{
     display: flex;
     flex-direction: column;
@@ -132,7 +137,7 @@ input[type=text] {
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
-}
+} */
 
 /*slideshow*/
 
@@ -145,8 +150,9 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin-top:100px ;
-  overflow: hidden;
+  overflow:hidden;
+  margin-top:100px;
+  background-color: #000000;
 }
 
 /* The dots/bullets/indicators */
@@ -187,9 +193,10 @@ img {vertical-align: middle;}
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
     padding: 3rem;
+    background-color: aliceblue;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
@@ -197,7 +204,7 @@ img {vertical-align: middle;}
   }
   
   .price {
-    color: grey;
+    color: rgb(255, 255, 255);
     font-size: 22px;
   }
   
@@ -205,8 +212,8 @@ img {vertical-align: middle;}
     border: none;
     outline: 0;
     padding: 12px;
-    color: white;
-    background-color: #000;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -228,13 +235,13 @@ img {vertical-align: middle;}
     border-radius: 0 0 10px 10px;
 }
 .note{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .price{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #000;
+    color: #000000;
 }
 .quantity{
     display: flex;
@@ -252,6 +259,6 @@ img {vertical-align: middle;}
     border: none;
     font-size: 1.3em;
     cursor: pointer;
-    color: #000;
+    color: #000000;
 
 }
